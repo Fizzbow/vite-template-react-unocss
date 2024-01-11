@@ -7,15 +7,14 @@ import {
   presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
+  presetMini,
 } from "unocss";
 
 export default defineConfig({
   shortcuts: [
-    ["full", "w-full h-full"],
-    ["flex-center", "flex items-center justify-center"],
-    ["w-limited-1", "w-full max-w-900px px8 mx-auto"],
-    ["image-contain", "bg-contain bg-no-repeat bg-center"],
-    ["image-cover", "bg-cover bg-no-repeat bg-center"],
+    ["switch-animation", "transition duration-300"],
+    ["bg-base", "bg-[#fff] dark:bg-[#1B1B1F]"],
+    ["text-base", "text-[#3C3C43] dark:text-[#FFFFF5D8]"],
   ],
   presets: [
     presetUno(),
@@ -23,6 +22,7 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({}),
     presetIcons(),
+    presetMini(),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
   theme: {
@@ -32,11 +32,6 @@ export default defineConfig({
       lg: "1024px",
       xl: "1280px",
       xxl: "1900px",
-    },
-    limit: {},
-    colors: {
-      greyer: "#76797D",
-      linearGray: "rgba(var(--linear-gray), %alpha)",
     },
   },
 });
