@@ -6,7 +6,7 @@
     </a>
 </div>
 
-## Usage
+## 🔧 Usage
 
 ```
 pnpm install
@@ -27,11 +27,7 @@ pnpm dev
 - UnoCSS
 - Dark/light Mode toggle
 
-## VScode setting
-
-- `unocss`,`i18n-ally`
-
-## Internationalization
+## 🌍 Internationalization
 
 - framework with `i18n` `react-i18n`
 - language file: `src/public/locales`
