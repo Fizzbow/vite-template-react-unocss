@@ -16,17 +16,20 @@ const Home = () => {
           <div className="i-logos:react text-7xl hover:rotate-50 transition-transform" />
         </div>
 
-        <div
-          className="i-carbon-sun dark:i-carbon-moon cursor-pointer text-xl"
-          onClick={() =>
-            setMode((prev) => (prev === "dark" ? "light" : "dark"))
-          }
-        />
+        <div className="border-1 border-solid cursor-pointer rounded-1 px-5 py-2 my-12">
+          <div
+            className="i-carbon-sun dark:i-carbon-moon  text-xl"
+            onClick={() =>
+              setMode((prev) => (prev === "dark" ? "light" : "dark"))
+            }
+          />
+        </div>
 
-        <div className="font-600">
-          current language :
+        <div className="font-600 text-[20px] flex flex-row gap-2 mb-4">
+          <span>CURRENT LANGUAGE :</span>
           <select
             name="lang"
+            className="text-[19px] border-none rounded-1"
             onChange={(event) => changeLanguage(event.target.value)}
           >
             <option value="en">en</option>
@@ -35,8 +38,8 @@ const Home = () => {
         </div>
 
         <div
-          flex="~ col items-center gap-3"
-          className="max-w-xl shadow-xl bg-white/10 rounded-2 p-4"
+          flex="~ col items-center gap-1"
+          className="max-w-xl shadow-xl bg-white/10 rounded-2 p-6"
         >
           <span className="font-600 text-[20px]">{t("Home.title")}</span>
           <span>{t("Home.section")}</span>

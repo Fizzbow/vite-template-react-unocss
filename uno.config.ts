@@ -12,7 +12,7 @@ import {
 export default defineConfig({
   shortcuts: [
     ["switch-animation", "transition duration-300"],
-    ["bg-base", "bg-[#fff] dark:bg-[#1B1B1F]"],
+    ["bg-base", "bg-[#fff] dark:bg-[#282C33]"],
     ["text-base", "text-[#3C3C43] dark:text-[#FFFFF5D8]"],
   ],
   presets: [
