@@ -6,6 +6,10 @@
     </a>
 </div>
 
+<div align="center">
+    <a href="https://github.com/Fizzbow/vite-template-react-unocss">github</a>
+</div>
+
 ## 🔧 Usage
 
 ```
@@ -16,7 +20,7 @@ pnpm dev
 ## ♈️ Icon
 
 - icon by [icontify/icon](https://icon-sets.iconify.design/)
-- use with [unocss Icons preset](https://unocss.dev/presets/icons) Example
+- with [unocss Icons preset](https://unocss.dev/presets/icons) Example
 
 ```
 <div class="i-mdi-alarm text-orange-400" />
