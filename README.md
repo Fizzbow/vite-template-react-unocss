@@ -53,8 +53,24 @@ pnpm dev
 
 - UI framework with [mui](https://mui.com/material-ui/all-components/)
 
-  - usage
+### usage
 
-  ```
+- theme color setting
 
-  ```
+```
+root
+  ---|_src
+  -----|_theme.tsx
+```
+
+- primary is Default color
+
+```
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#6641CF",
+    },
+  },
+});
+```
