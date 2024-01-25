@@ -70,7 +70,7 @@ pnpm dev
 
 ## 🚗 UI Components
 
-| UI framework with [mui](https://mui.com/material-ui/all-components/)
+| UI framework with [Material UI v5](https://mui.com/material-ui/all-components/)
 
 ### usage
 
