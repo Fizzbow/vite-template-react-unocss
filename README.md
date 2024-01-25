@@ -17,6 +17,19 @@ pnpm install
 pnpm dev
 ```
 
+## 📝 VSCode plugins tool
+
+- setting file in
+
+  ```
+  root
+  ---|_.vscode
+  -----|_extensions.json
+  ```
+
+  displayed on the vscode like
+  <img src="./src/assets/vscode.jpeg"/>
+
 ## ♈️ Icon
 
 - icon by [icontify/icon](https://icon-sets.iconify.design/)
@@ -35,3 +48,13 @@ pnpm dev
 
 - framework with `i18n` `react-i18n`
 - language file: `src/public/locales`
+
+## 🚗 Components
+
+- UI framework with [mui](https://mui.com/material-ui/all-components/)
+
+  - usage
+
+  ```
+
+  ```
