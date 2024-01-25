@@ -17,7 +17,7 @@ pnpm install
 pnpm dev
 ```
 
-## 📝 VSCode plugins tool
+## 📝 VSCode plugins
 
 - setting file in
 
@@ -27,7 +27,7 @@ pnpm dev
   -----|_extensions.json
   ```
 
-  displayed on the vscode like
+  displayed on the vscode like:
   <img src="./src/assets/vscode.jpeg"/>
 
 ## ♈️ Icon
@@ -41,17 +41,36 @@ pnpm dev
 
 ## 🎨 Style
 
-- UnoCSS
-- Dark/light Mode toggle
+### [UnoCSS](https://unocss.dev/)
+
+- config in uno.config.ts
+- Responsive style adjustments:
+
+  ```
+    <div sx="w-full" sm="w-[900px]"/>
+
+    ---------equal-----------
+
+    @media (min-width: 320px)
+    .xs\:w-full {
+        width: 100%;
+    }
+
+    @media (min-width: 640px)
+    .sm\:w-full {
+        width: 900px;
+    }
+
+  ```
 
 ## 🌍 Internationalization
 
 - framework with `i18n` `react-i18n`
 - language file: `src/public/locales`
 
-## 🚗 Components
+## 🚗 UI Components
 
-- UI framework with [mui](https://mui.com/material-ui/all-components/)
+| UI framework with [mui](https://mui.com/material-ui/all-components/)
 
 ### usage
 
